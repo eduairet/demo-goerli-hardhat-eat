@@ -22,4 +22,5 @@ contract Contract {
 
 ## Features
 
-- [WinnerEmitter.sol](./contracts/WinnerEmitter.sol) is the contract that emits data to 0xcF469d3BEB3Fc24cEe979eFf83BE33ed50988502
+-   [WinnerEmitter.sol](./contracts/WinnerEmitter.sol) is the contract that emits data to [0xcF469d3BEB3Fc24cEe979eFf83BE33ed50988502](https://goerli.etherscan.io/address/0xcF469d3BEB3Fc24cEe979eFf83BE33ed50988502)
+-   It's deployed on [0x68791A4c8Ba23f3Db22D4EF547F890596201fed9](https://goerli.etherscan.io/address/0x68791A4c8Ba23f3Db22D4EF547F890596201fed9)

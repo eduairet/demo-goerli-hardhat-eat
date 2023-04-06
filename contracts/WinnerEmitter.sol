@@ -1,10 +1,17 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract WinnerEmitter {
-    uint public x;
+contract Destination {
+    event Winner(address);
 
-    function changeX(uint _x) external {
-        x = _x;
+    function attempt() external {
+        require(msg.sender != tx.origin, "msg.sender is equal to tx.origin");
+        emit Winner(msg.sender);
+    }
+}
+
+contract WinnerEmitter {
+    function win(address alchemy) external {
+        Destination(alchemy).attempt();
     }
 }
