@@ -30,7 +30,7 @@ describe('Test WinnerEmitter', async () => {
         assert.equal(winnerEmitter.address, winemAd);
         assert.equal(destination.address, destAd);
     });
-    it('WrittenEmitter should call Destination.attempt()', async () => {
+    it('WinnerEmitter should call Destination.attempt()', async () => {
         const tx: ContractTransaction = await winnerEmitter.win(
             destination.address
         );
