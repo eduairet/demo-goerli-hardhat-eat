@@ -1,0 +1,29 @@
+{
+  "name": "demo-goerli-hardhat-eat",
+  "version": "1.0.0",
+  "description": "Alchemy University Week4 Final Exercise",
+  "main": "hardhat.config.ts",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts"
+  },
+  "keywords": [
+    "ethereum",
+    "goerli",
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "typescript",
+    "node.js"
+  ],
+  "author": "Eduardo Aire Torres",
+  "license": "MIT",
+  "dependencies": {
+    "hardhat": "^2.13.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "dotenv": "^16.0.3"
+  }
+}
