@@ -30,4 +30,4 @@ contract Contract {
     -   That `WinnerEmitter` calls `Destination.attempt()`
     -   That `Destination` emits an event with `WinnerEmitter` address
 -   Transactions can be executed with `npx hardhat run scripts/call-attempt.ts`
--   You can see the mined transactions [here](https://goerli.etherscan.io/address/0x68791a4c8ba23f3db22d4ef547f890596201fed9)
+-   You can see the [mined transactions here](https://goerli.etherscan.io/address/0x68791a4c8ba23f3db22d4ef547f890596201fed9) and the [leaderboard here](https://goerli.etherscan.io/address/0xcF469d3BEB3Fc24cEe979eFf83BE33ed50988502#events)
